@@ -1,6 +1,5 @@
 from mongoengine.fields import StringField, DateTimeField, EmailField
 from mongoengine import connect, Document
-import datetime
 
 connect('apidb', host='localhost', port=27017)
 
