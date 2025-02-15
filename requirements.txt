@@ -1,6 +1,5 @@
 fastapi[all]~=0.111.0
 requests
-pymongo
 mongoengine
 pydantic-settings
 pydantic~=2.8.0
