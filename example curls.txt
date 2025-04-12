@@ -1,0 +1,3 @@
+curl -i -X POST -H 'Content-Type: application/json' -d '{"name": "New item", "password": "hsiesbci", "email": "ks2@tans.ru"}' http://158.160.176.220:8000/user/register
+
+curl -i -X GET http://localhost:8000/user/ks@yandex.ru
