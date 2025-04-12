@@ -1,8 +1,10 @@
+from mongoengine import Document
+
 from app.dao.base import BaseDAO
 from app.user.model import User
 
 class UserDAO(BaseDAO):
-    model = User
+    model: Document = User
 
     @classmethod
     def find_one_or_none_by_name(cls, name: str):
